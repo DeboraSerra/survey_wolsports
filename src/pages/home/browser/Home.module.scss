@@ -1,0 +1,108 @@
+@import '../../../App.scss';
+
+.logo {
+  font-size: 80px;
+  font-family: 'Changa One', cursive;
+  font-weight: 400;
+  background: -webkit-linear-gradient(45deg, $yellow, $pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
+
+.banner {
+  background-image: url(../../../images/Imagem-Background.png);
+  height: 680px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 70px;
+
+  & .entry_text {
+    font-size: 80px;
+    width: 50%;
+  }
+
+  & p {
+    font-size: 32px;
+    width: 45%;
+    font-weight: 400;
+  }
+}
+
+.sect2 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 80px 70px;
+  background-color: $yellow;
+
+  & h3 {
+    font-size: 48px;
+    line-height: 66px;
+  }
+
+  & a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
+
+.card_sect {
+  background-color: $purple;
+  height: 1060px;
+  color: white;
+  padding: 80px 70px;
+
+  & h2 {
+    font-size: 64px;
+    font-weight: 700;
+  }
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+  margin-top: 56px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  margin: 0 40px;
+  border-radius: 10px;
+  padding: 40px 24px;
+  width: 420px;
+
+  & h4 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+
+  & p {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.footer {
+  background-color: $yellow;
+  height: 380px;
+  padding: 80px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  & h2 {
+    font-size: 64px;
+  }
+}
